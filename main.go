@@ -43,6 +43,7 @@ func InitBlockChain() *BlockChain {
 }
 
 func main() {
+	fmt.Println("Hello !!!!")
 	chain := InitBlockChain()
 
 	chain.AddBlock("First Block after Genesis")
@@ -54,4 +55,5 @@ func main() {
 		fmt.Printf("Data in Block: %s\n", block.Data)
 		fmt.Printf("Hash: %x\n", block.Hash)
 	}
+	
 }
