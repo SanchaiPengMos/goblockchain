@@ -55,6 +55,6 @@ func main() {
 		fmt.Printf("Ha2sh: %x\n", block.Hash)
 	}
 
-	fmt.Println("SPM")
+	fmt.Println("SPMMMMM")
 
 }
