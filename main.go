@@ -14,9 +14,6 @@ type Block struct {
 	Hash     []byte
 	Data     []byte
 	PrevHash []byte
-
-
-	
 }
 
 func (b *Block) DeriveHash() {
@@ -57,5 +54,7 @@ func main() {
 		fmt.Printf("Data in Block: %s\n", block.Data)
 		fmt.Printf("Ha2sh: %x\n", block.Hash)
 	}
+
+	fmt.Println("SPM")
 
 }
